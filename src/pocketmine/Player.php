@@ -1001,6 +1001,7 @@ class Player extends Human implements CommandSender, InventoryHolder, ChunkLoade
 
 		$this->inventory->sendContents($this);
 		$this->inventory->sendArmorContents($this);
+		true;
 	}
 
 	protected function orderChunks(){
